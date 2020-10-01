@@ -1,0 +1,37 @@
+.dashboard {
+  padding: 80px 0;
+}
+.dashboard__row {
+  margin: 50px 0;
+  display: flex;
+  column-gap: 60px;
+}
+.dashboard__card {
+  display: block;
+  background-color: #fff;
+  padding: 40px;
+  padding-bottom: 60px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.dashboard__cardTitle {
+  margin-bottom: 20px;
+}
+.dashboard__inputLabel {
+  font-size: 0.7em;
+}
+.dashboard__selectMetric {
+  /* margin: 20px 0; */
+  padding: 10px 10px;
+  border: 1px solid #bdbdbd;
+  min-width: 200px;
+}
+
+.dashboard__card > .charts {
+  margin-top: 20px;
+}
+
+.recharts-legend-wrapper {
+  font-size: 0.8em;
+  bottom: 0 !important;
+}
