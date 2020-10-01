@@ -1,4 +1,4 @@
-# Oxy Health App
+# Oxe Health App
 
 Backend - Django Rest Framework
 
